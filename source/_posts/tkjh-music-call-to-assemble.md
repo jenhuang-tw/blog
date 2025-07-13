@@ -11,7 +11,7 @@ tags:
 
 當年耶誕節前後，老師應景地在午餐時播放「耶誕音樂組曲」，前面幾首都是大家耳熟能詳的耶誕歌。不過一次換曲時，驚聞熟悉而又陌生的旋律，這可不是我們的集合樂嗎？當天晚上回家搜尋，終於確定基督教的宗教歌曲 *God Rest You Merry Gentlemen*（先生，願主賜您歡樂）就是我們的集合樂。下面這部影片，最接近國中時聽到的版本：
 
-{% youtube G9ZpspXZgeY %}
+<iframe src="https://www.youtube.com/embed/G9ZpspXZgeY" style="width: 100%; aspect-ratio: 16/9;" frameborder="0" allowfullscreen></iframe>
 
 後來又在舊校網上檔案區資料夾「校長室」中，找到鍾進森校長、資訊組翁崇展組長上傳的四個檔案，其中大小3897.63 Kb、2006 年 9 月 11 日由鍾進森校長上傳的檔案，就是這首集合樂。由此可推知，集合樂大概在 95 學年度開始使用。
 
