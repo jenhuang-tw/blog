@@ -34,7 +34,7 @@ tags:
 
 聽說教育部並不想讓學生知道具體審查介面，真是奇怪。如果我們要參加一場考試，事前必定會蒐集考古題，做好萬全的準備。張老師貼文的附圖（下圖）並沒有遮掩任何資料，我們剛好可以從中了解：大學端審查會看到什麼項目、到底可以看到什麼資料。
 
-![一張審查介面的擷圖]( {{ url_for('/img/ntu-admission-screenshot-profchang-fbpost.webp') }} )
+![一張審查介面的擷圖]( /img/ntu-admission-screenshot-profchang-fbpost.webp )
 
 （圖片來源：張耀文教授 Facebook）
 
