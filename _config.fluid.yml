@@ -13,11 +13,11 @@
 
 # 用于浏览器标签的图标
 # Icon for browser tab
-favicon: /img/fluid.png
+favicon: /img/favicon-32x32.png
 
 # 用于苹果设备的图标
 # Icon for Apple touch
-apple_touch_icon: /img/fluid.png
+apple_touch_icon: /img/apple-touch-icon.png
 
 # Title separator in browser tab, e.g. 文章名 - 網站
 tab_title_separator: " | "
