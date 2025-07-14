@@ -76,10 +76,15 @@ category_map:
   "課綱/考招": curriculum-and-admissions
   "學校行政": school-administration
 tag_map:
-  "虎尾高中": hwsh
   "土庫國中": tkjh
+  "虎尾高中": hwsh
   "臺北大學": ntpu
+  "108課綱": curriculum-guidelines-108
+  "學習歷程檔案": academic-portfolio
+  "申請入學": admission-by-applying
   "學生自治": student-self-governance
+  "校歌": school-anthem
+  "建築": buildings
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
