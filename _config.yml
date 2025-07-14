@@ -9,7 +9,7 @@ description: '記錄校園與地方的觀察與思考。'
 keywords: 
 author: Jen Huang
 language: zh-TW
-timezone: ''
+timezone: 'Asia/Taipei'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -77,6 +77,8 @@ category_map:
   "學校行政": school-administration
   "學生自治": student-self-governance
   "學生參與": student-participation
+  "學習筆記": learning-note
+  "法律時事": current-affairs-in-law
 tag_map:
   "土庫國中": tkjh
   "虎尾高中": hwsh
