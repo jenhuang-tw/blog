@@ -75,6 +75,8 @@ category_map:
   "隨筆": diary
   "課綱/考招": curriculum-and-admissions
   "學校行政": school-administration
+  "學生自治": student-self-governance
+  "學生參與": student-participation
 tag_map:
   "土庫國中": tkjh
   "虎尾高中": hwsh
@@ -85,6 +87,7 @@ tag_map:
   "學生自治": student-self-governance
   "校歌": school-anthem
   "建築": buildings
+  "虎尾高中學生會": hwshsa
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
