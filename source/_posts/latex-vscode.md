@@ -12,7 +12,7 @@ tags:
 
 ## VS Code 設定
 
-原本打算用 Overleaf 就好了，但法學引註格式出了名地繁瑣，單純的 BibLaTeX 根本無法處理；雖然在網路上找到 Zeping Lee 開發的 `[citation-style-language](https://ctan.org/pkg/citation-style-language)` 模組，但無法在 Overleaf 完成編譯。最後只好在本地寫，再配合 Git + GitHub 做版本控制。所以，也和寫其他程式時一樣，我就用 Visual Studio Code 來寫 LaTex。
+原本打算用 Overleaf 就好了，但法學引註格式出了名地繁瑣，單純的 BibLaTeX 根本無法處理；雖然在網路上找到 Zeping Lee 開發的 [citation-style-language](https://ctan.org/pkg/citation-style-language) 模組，但無法在 Overleaf 完成編譯。最後只好在本地寫，再配合 Git + GitHub 做版本控制。所以，也和寫其他程式時一樣，我就用 Visual Studio Code 來寫 LaTex。
 
 最近換筆電，全部設定又得重來，就順便記錄在這裡。主要的參考文獻是這一篇：[使用 VSCode 上撰寫中文 LaTex 文件](https://kaibaoom.tw/posts/notes/vscode-latex/)。
 
@@ -32,7 +32,7 @@ tags:
 
 ### CSL 支援
 
-LaTex 較常使用的參考文獻、引註模組是 BibTeX 或 BibLaTeX，但因現有方法無法滿足法學引註的需求，我個人使用的是 Zeping Lee 開發的 `[citation-style-language](https://ctan.org/pkg/citation-style-language)` 模組。有關該模組的使用，可以自行參閱說明文件。
+LaTex 較常使用的參考文獻、引註模組是 BibTeX 或 BibLaTeX，但因現有方法無法滿足法學引註的需求，我個人使用的是 Zeping Lee 開發的 [citation-style-language](https://ctan.org/pkg/citation-style-language) 模組。有關該模組的使用，可以自行參閱說明文件。
 
 基於個人需求，我也改寫了 Zeping Lee 開發的「[法学引注手册（多语言）](https://zotero-chinese.com/styles/%E6%B3%95%E5%AD%A6%E5%BC%95%E6%B3%A8%E6%89%8B%E5%86%8C%EF%BC%88%E5%A4%9A%E8%AF%AD%E8%A8%80%EF%BC%89/)」引註格式，依國科會人文處法律學門 2025 年 7 月 10 日版《法學期刊引註格式》（目前只支援中文版常見文獻類型，英、日、德、法文獻都還是原本中國大陸的《法学引注手册》格式），製作 [csl-nstc-law](https://github.com/jenhuang-tw/csl-nstc-law) CSL 格式。
 
