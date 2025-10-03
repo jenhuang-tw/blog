@@ -71,6 +71,35 @@ LaTex 較常使用的參考文獻、引註模組是 BibTeX 或 BibLaTeX，但因
 
 ![](/img/screenshot-of-csl-nstc-law.webp)
 
-## 目前還沒辦法解決的問題
+## 關於參考文獻排序
 
-關於參考文獻排序，目前找不到較常見需求（先依文獻語言別排，中文再按姓氏筆畫、英文按字母序）的調整方式。目前的做法是，參考文獻前強制換頁，然後將 LaTex 產生的參考文獻複製到另外一個 Word 檔案，手動調整順序，再合併兩個 PDF 檔。 
+原先找不到較常見需求（先依文獻語言別排，中文再按姓氏筆畫、英文按字母序）排序參考文獻的調整方式，只好參考文獻前強制換頁，然後將 LaTex 產生的參考文獻複製到另外一個 Word 檔案，手動調整順序，再合併兩個 PDF 檔。
+
+更新：在僅參考中文文獻的前提下（不需要區分不同語言別文獻），以下的方法應該可以撐得過去。
+
+1、區分類型輸出參考文獻
+
+```tex
+\addcontentsline{toc}{section}{參考文獻}
+\section*{參考文獻}
+
+\printbibliography[type=book, title={專書}]
+\printbibliography[type=article-journal, title={期刊論文}]
+\printbibliography[nottype=article-journal, nottype=book, title={其他類型}]
+```
+
+2、按照作者姓氏筆劃數排序
+
+法學引註上似乎不常要求總頁數，因此 CSL `number-of-pages` 欄位基本上不會填寫。因此，就拿這個欄位來儲存作者姓氏筆劃數（必須手動填寫，國教院國語小字典可查詢漢字的筆劃數）。如果是使用 BibLaTex，則可以填入 `pagetotal` 中，即可自動對映至 `number-of-pages`。假設作者姓李，姓氏筆劃數為 7，使用 BibLaTex 即應寫成 `pagetotal = {07},`。
+
+在 CSL 檔案中，設定輸出參考文獻時的排序為：
+
+```tex
+    <sort>
+      <key variable="number-of-pages" />
+      <key variable="author" />
+      <key variable="issued" />
+	</sort>
+```
+
+若 `<key>` 僅設定 `variable="author"`, locale zh 的情況下，不會自動使用筆畫排序，但個人不太確定是以拼音還是 Unicode 編碼排序。
