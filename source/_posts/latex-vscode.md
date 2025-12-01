@@ -34,7 +34,7 @@ tags:
 
 LaTex 較常使用的參考文獻、引註模組是 BibTeX 或 BibLaTeX，但因現有方法無法滿足法學引註的需求，我個人使用的是 Zeping Lee 開發的 [citation-style-language](https://ctan.org/pkg/citation-style-language) 模組。有關該模組的使用，可以自行參閱說明文件。
 
-基於個人需求，我也改寫了 Zeping Lee 開發的「[法学引注手册（多语言）](https://zotero-chinese.com/styles/%E6%B3%95%E5%AD%A6%E5%BC%95%E6%B3%A8%E6%89%8B%E5%86%8C%EF%BC%88%E5%A4%9A%E8%AF%AD%E8%A8%80%EF%BC%89/)」引註格式，依國科會人文處法律學門 2025 年 7 月 10 日版《法學期刊引註格式》（目前只支援中文版常見文獻類型，英、日、德、法文獻都還是原本中國大陸的《法学引注手册》格式），製作 [csl-nstc-law](https://github.com/jenhuang-tw/csl-nstc-law) CSL 格式。
+基於個人需求，我也改寫了 Zeping Lee 開發的「[法学引注手册（多语言）](https://zotero-chinese.com/styles/%E6%B3%95%E5%AD%A6%E5%BC%95%E6%B3%A8%E6%89%8B%E5%86%8C%EF%BC%88%E5%A4%9A%E8%AF%AD%E8%A8%80%EF%BC%89/)」引註格式，依《臺北大學法學論叢》採用的 2025 年 7 月 10 日版《法學期刊引註格式凡例》（目前只支援中文版常見文獻類型，英、日、德、法文獻都還是原本中國大陸的《法学引注手册》格式），製作 [csl-nstc-law](https://github.com/jenhuang-tw/csl-nstc-law) CSL 格式。
 
 以下，就以這個格式為例，展示使用結果。
 
@@ -47,6 +47,8 @@ LaTex 較常使用的參考文獻、引註模組是 BibTeX 或 BibLaTeX，但因
 ```
 
 2、參考文獻來源
+
+以下使用 BibLaTex 格式，更完整的範例請參見〈[《法學期刊引註格式凡例》的 BibLaTeX 語法片段](/blog/law-journal-citation-style-example-biblatex.html)〉。
 
 ```tex
 @article{QiuWY2025,
