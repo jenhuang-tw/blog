@@ -18,6 +18,10 @@ tags:
 
 ### 2.7.1 收錄於期刊之論文
 
+【格式】作者，篇名，期刊名，期刊卷期，頁碼，出版年。
+
+【例】陳淳文，參與行政之法制架構初探，東吳法律學報，34卷4期，頁63-117，2023年。
+
 ```
 @article{ChenCW2023,
   language = {zh},
@@ -26,37 +30,41 @@ tags:
   journal = {東吳法律學報},
   volume = {34},
   number = {4},
+  pages = {63--117},
   year = {2023},
   month = {4},
-  pages = {63--117},
 }
 ```
 
+為利配合其他引註格式，以上的範例片段仍加上出版月份。如果您使用 `csl-nstc-law` 將會自動忽略這一參數，不予輸出。
+
 ### 2.7.2 收錄於專書之論文
 
-編者非作者
+2.7.2.1 編者非作者
 
 ```
 @incollection{ChenAE2000,
   language = {zh},
   author = {{陳愛娥}},
   title = {基本權作為客觀法規範─以「組織與程序保障功能」為例，檢討其衍生的問題},
-  editor={{李建良} and {簡資修}},
+  editor={ {李建良} and {簡資修} },
   booktitle = {憲法解釋之理論與實務（第二輯）},
   address = {臺北市},
   publisher = {中央研究院中山人文社會科學研究所},
   year = {2000},
   pages = {235--272},
 }
+```
 
-如果「編者同作者」，不填寫 editor 參數即可。
+2.7.2.2 如果「編者同作者」，不填寫 editor 參數即可。
 
+```
 @incollection{ChenCS2007a,
   language = {zh},
-  author = {{陳春生}},
+  author = { {陳春生} },
   title = {行政法上之參與及合作},
   booktitle = {行政法之學理與體系(二)},
-    address = {臺北市},
+  address = {臺北市},
   publisher = {元照},
   year = {2007},
   pages = {63--90},
@@ -70,7 +78,7 @@ tags:
 ```
 @book{DengYS2023,
   language = {zh},
-  author = {{鄧衍森}},
+  author = { {鄧衍森} },
   title = {國際人權法理論與實務},
   publisher = {元照},
   year = {2023},
@@ -78,7 +86,7 @@ tags:
 }
 ```
 
-（按：出版社並非《凡例》要求註明的項目）
+出版社並非《凡例》要求註明的項目，但因其他引註格式經常要求，為利通用，此處依然標上。如果您使用 `csl-nstc-law` 將會自動忽略這一參數，不予輸出。
 
 ### 2.8.2 由多人共同著作之書籍
 
@@ -94,7 +102,7 @@ tags:
 ```
 @book{ChenCW_WuG_2025,
   language = {zh},
-  author = {{吳庚} and {陳淳文}},
+  author = { {吳庚} and {陳淳文} },
   title = {憲法理論與政府體制},
   publisher = {三民},
   year = {2025},
@@ -109,7 +117,7 @@ tags:
 ```
 @phdthesis{MaRC2014,
   language = {zh},
-  author = {{馬若慈}},
+  author = { {馬若慈} },
   title = {論兒童陳述意見之權利：以兒童權利公約為核心},
   school = {國立臺灣大學法律學系},
   type = {碩士論文},
@@ -123,8 +131,8 @@ tags:
 
 @book{Schlaich_Korioth,
   language = {zh},
-  author = {{Klaus Schlaich} and {Stefan Korioth}},
-  translator = {{吳信華}},
+  author = { {Klaus Schlaich} and {Stefan Korioth} },
+  translator = { {吳信華} },
   title = {聯邦憲法法院：地位、程序、裁判},
   year = {2017},
   edition = {1},
@@ -142,12 +150,13 @@ tags:
 ```
 @online{udn20230529,
 	language = {zh},
-	author = {{鄭媁}},
+	author = { {鄭媁} },
 	title = {國民教育法修正案三讀通過 中小學生代表列席校務會議},
 	journal = {聯合新聞網},
 	date={2023-05-29},
 	urldate={2025-03-18},
 	url = {https://udn.com/news/story/6885/7197760},
+}
 ```
 
 ## 2.13 公報
@@ -158,16 +167,6 @@ tags:
   author = {立法院公報},
   title = {113卷87期，2冊},
   year = {2024},
-}
-```
-
-政府文件（僅供參考。《凡例》未列入）
-```
-@misc{National_Span_Plan,
-  language = {zh},
-  author = {內政部},
-  title = {全國國土計畫},
-  year={2018},
 }
 ```
 
@@ -186,3 +185,13 @@ tags:
 ```
 
 【說明】 `date` 為原網頁日期， `urldate` 為最後瀏覽日。
+
+## 政府文件（僅供參考。《凡例》未列入）
+```
+@misc{National_Span_Plan,
+  language = {zh},
+  author = {內政部},
+  title = {全國國土計畫},
+  year={2018},
+}
+```
