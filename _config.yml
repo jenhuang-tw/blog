@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 'Jen Writes'
+title: 'Zane Writes'
 subtitle: 'Writing from this land'
 description: '記錄校園與地方的觀察與思考。'
 keywords: 
-author: Jen Huang
+author: Zane Huang
 language: zh-TW
 timezone: 'Asia/Taipei'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://jenhuang-tw.github.io/blog
+url: http://zanehuang.com/blog
 root: /blog/
 permalink: :title.html
 permalink_defaults:
@@ -79,6 +79,7 @@ category_map:
   "學生參與": student-participation
   "學習筆記": learning-note
   "法律時事": current-affairs-in-law
+  "校歌": school-anthem
 tag_map:
   "土庫國中": tkjh
   "虎尾高中": hwsh
